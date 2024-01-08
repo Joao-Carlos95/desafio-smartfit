@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-grey);
+    width: 80%;
+
+    width: 100%;
+    gap: 32px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+footer img {
+    height: 50px;
+
+}
+.span {
+    width: 90%;
+}
+footer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--light-text);
+    
+}
+footer span {
+    display: block;
+    text-align: right;
+    color:rgb(104, 155, 155);
+    font-family: cursive;
+    font-style: italic;
+}
